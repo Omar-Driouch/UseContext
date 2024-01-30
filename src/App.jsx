@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <input type='text'/>
+     
       <ThemeContextProvider >
         <div className="container">
           <Blog />

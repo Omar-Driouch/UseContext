@@ -7,7 +7,7 @@ export function Button({ variant = 'primary', ...props }) {
         className: `btn btn-${variant} ${props.className || ''}` // Ajout de la possibilité de passer des classes supplémentaires
     };
     const theme= useContext(ThemeContext)
-    return <button  onClick={theme.toggleTheme} >{theme.theme}</button>
+    return <button  onClick={theme.toggleTheme} > {theme.theme}</button>
 
     if (props.href) {
         return <a {...newProps} />;
